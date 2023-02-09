@@ -20,4 +20,8 @@ contract MyContract {
         uint value = 1;
         return value;
     }
+
+    function test () pure view returns(bool){
+        return true;
+    }
 }
