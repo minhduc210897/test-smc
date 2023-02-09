@@ -8,7 +8,7 @@ contract MyContract {
     uint8 public  myUint8 = 1; 
     uint256 public  myUint256  = 1;
     string public myString  = "With Love from Whydah" ; 
-    bytes32 public bytes32 = "Bao is gay";
+    bytes32 public bytes32 = "Bao is not gay, Cuong is ";
     address public myAddress = "0x13761B652F768F27E2d03b6a084bCf630279aF3d";
     struct MyStruct {
         uint256 myUint256,
