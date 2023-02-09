@@ -15,6 +15,7 @@ contract MyContract {
         string myString 
     }
     MyStruct public myStruct = MyStruct (1,"Hello World");
+    MyStruct public myStruct = MyStruct (1,"Hello World3");
     // Local variable
     function getValue() public pure returns(uint){
         uint value = 1;
