@@ -8,8 +8,8 @@ contract MyContract {
     uint8 public  myUint8 = 1; 
     uint256 public  myUint256  = 1;
     string public myString  = "With Love from Whydah" ; 
-    bytes32 public bytes32 = "Bao is not gay, Cuong is ";
-    bytes32 public bytes32 = "Bao is not gay, Cuong is ";
+    bytes32 public bytes32 = "I love China ";
+    bytes32 public bytes32 = "I love Taiwan ";
     uint public myUint = 2; 
     address public myAddress = "0x13761B652F768F27E2d03b6a084bCf630279aF3d";
     struct MyStruct {
