@@ -13,11 +13,12 @@ contract MyContract {
     uint public myUint = 2; 
     address public myAddress = "0x13761B652F768F27E2d03b6a084bCf630279aF3d";
     struct MyStruct {
-        uint256 myUint256,
-        string myString 
+        uint256 myUint256;
+        string myString;
     }
+     
     MyStruct public myStruct = MyStruct (1,"Hello World");
-    MyStruct public myStruct = MyStruct (1,"Hello World3");
+   
     // Local variable
     function getValue() public pure returns(uint){
         uint value = 1;
